@@ -22,7 +22,7 @@ h1 {
   padding: 100px;
   padding-left: 20px;
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 
 }
 
@@ -38,6 +38,13 @@ h5 {
   color: #deffd4;
   font-size: 2rem;
 }
+
+h6 {
+  font-size: 64px;
+  padding: 20px;
+  color: #ff3845;
+  margin: 0px;
+}
 .contentItem {
   display: flex;
   flex-direction: column;
@@ -45,6 +52,15 @@ h5 {
   border-radius: 10px;
   filter: drop-shadow(0px 10px 10px grey);
 
+}
+
+
+p {
+  color: #eaebe8;
+  font-size: 24px;
+  padding-left: 20px;
+  text-align: center;
+  padding-top: 30px;
 }
 .contentTitle {
   color: #eaebe8;
@@ -60,9 +76,27 @@ h5 {
 #grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2vmin;
-  grid-row-gap: 1vmin;
-  padding-left: 2vmin;
-  padding-right: 2vmin;
+  grid-column-gap: 5vmin;
+  padding-left: 5vmin;
+  padding-right: 5vmin;
   font-size: 2rem;
+}
+
+.mainContainer {
+  background-color: #242926;
+  margin-top: 50px;
+}
+
+.reynaContainer, .omenContainer, .killjoyContainer  {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ability {
+  transition: linear 1s
+}
+.ability:hover {
+  cursor: pointer;
+  background-color: #ff3845;
 }

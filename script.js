@@ -63,8 +63,6 @@ function createElement(incomingJSON) {
     newContentBody.appendChild(newItem);
   }
 
-
-
   contentGridElement.appendChild(newContentElement);
 
 }

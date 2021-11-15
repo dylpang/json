@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-image: url("https://preview.redd.it/za3mcwiitj251.png?width=3840&format=png&auto=webp&s=b1b07de90e7c6516b226f2518ab014100edf2800");
+  background-size: cover;
+}
+h1 {
+  color: #ff3845;
+  font-size: 5em;
+  text-align: left;
+  padding: 100px;
+  padding-left: 20px;
+  margin: 0px;
+  margin-bottom: 20px;
+
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  color: #d4dbff;
+}
+
+h5 {
+  color: #deffd4;
+  font-size: 2rem;
+}
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 10px grey);
+
+}
+.contentTitle {
+  color: #eaebe8;
+  text-align: center;
+}
+
+.agentIcon {
+  width: 10vw;
+  height: auto;
+}
+
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 1vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  font-size: 2rem;
+}
